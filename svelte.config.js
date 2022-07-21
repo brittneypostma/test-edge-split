@@ -4,7 +4,7 @@ import adapter from '@sveltejs/adapter-netlify'
 const config = {
   kit: {
     adapter: adapter({
-      edge: true,
+      split: true,
     }),
 
     // Override http methods in the Todo forms
